@@ -54,4 +54,6 @@ public final class Constants {
 
     public static final String UPDATE_RECOVERY_EXEC = "/vendor/bin/install-recovery.sh";
     public static final String UPDATE_RECOVERY_PROPERTY = "persist.vendor.recovery_update";
+
+    public static final String PROP_MAINTAINER = "ro.cherish.maintainer";
 }
