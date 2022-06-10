@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.crdroid.updater;
+package com.cherish.updater;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -66,15 +66,15 @@ import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.google.android.material.snackbar.Snackbar;
 
 import org.json.JSONException;
-import com.crdroid.updater.controller.UpdaterController;
-import com.crdroid.updater.controller.UpdaterService;
-import com.crdroid.updater.download.DownloadClient;
-import com.crdroid.updater.misc.BuildInfoUtils;
-import com.crdroid.updater.misc.Constants;
-import com.crdroid.updater.misc.StringGenerator;
-import com.crdroid.updater.misc.Utils;
-import com.crdroid.updater.model.Update;
-import com.crdroid.updater.model.UpdateInfo;
+import com.cherish.updater.controller.UpdaterController;
+import com.cherish.updater.controller.UpdaterService;
+import com.cherish.updater.download.DownloadClient;
+import com.cherish.updater.misc.BuildInfoUtils;
+import com.cherish.updater.misc.Constants;
+import com.cherish.updater.misc.StringGenerator;
+import com.cherish.updater.misc.Utils;
+import com.cherish.updater.model.Update;
+import com.cherish.updater.model.UpdateInfo;
 
 import java.io.File;
 import java.io.IOException;

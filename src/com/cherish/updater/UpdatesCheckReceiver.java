@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.crdroid.updater;
+package com.cherish.updater;
 
 import android.app.AlarmManager;
 import android.app.NotificationChannel;
@@ -30,9 +30,9 @@ import android.util.Log;
 import androidx.core.app.NotificationCompat;
 
 import org.json.JSONException;
-import com.crdroid.updater.download.DownloadClient;
-import com.crdroid.updater.misc.Constants;
-import com.crdroid.updater.misc.Utils;
+import com.cherish.updater.download.DownloadClient;
+import com.cherish.updater.misc.Constants;
+import com.cherish.updater.misc.Utils;
 
 import java.io.File;
 import java.io.IOException;

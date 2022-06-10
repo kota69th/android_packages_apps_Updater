@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.crdroid.updater.model;
+package com.cherish.updater.model;
 
 public interface UpdateBaseInfo {
     String getName();

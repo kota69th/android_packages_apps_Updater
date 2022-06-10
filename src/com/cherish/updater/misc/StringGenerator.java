@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.crdroid.updater.misc;
+package com.cherish.updater.misc;
 
 import android.content.Context;
 import android.content.res.Resources;
 
-import com.crdroid.updater.R;
+import com.cherish.updater.R;
 
 import java.text.DateFormat;
 import java.util.Date;

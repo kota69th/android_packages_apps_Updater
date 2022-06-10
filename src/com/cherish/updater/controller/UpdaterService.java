@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.crdroid.updater.controller;
+package com.cherish.updater.controller;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -34,16 +34,16 @@ import androidx.core.app.NotificationCompat;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 import androidx.preference.PreferenceManager;
 
-import com.crdroid.updater.R;
-import com.crdroid.updater.UpdaterReceiver;
-import com.crdroid.updater.UpdatesActivity;
-import com.crdroid.updater.misc.BuildInfoUtils;
-import com.crdroid.updater.misc.Constants;
-import com.crdroid.updater.misc.StringGenerator;
-import com.crdroid.updater.misc.Utils;
-import com.crdroid.updater.model.Update;
-import com.crdroid.updater.model.UpdateInfo;
-import com.crdroid.updater.model.UpdateStatus;
+import com.cherish.updater.R;
+import com.cherish.updater.UpdaterReceiver;
+import com.cherish.updater.UpdatesActivity;
+import com.cherish.updater.misc.BuildInfoUtils;
+import com.cherish.updater.misc.Constants;
+import com.cherish.updater.misc.StringGenerator;
+import com.cherish.updater.misc.Utils;
+import com.cherish.updater.model.Update;
+import com.cherish.updater.model.UpdateInfo;
+import com.cherish.updater.model.UpdateStatus;
 
 import java.io.File;
 import java.io.IOException;
